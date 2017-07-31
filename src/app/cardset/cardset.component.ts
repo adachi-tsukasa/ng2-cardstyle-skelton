@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-cardset',
+  selector: 'card-set',
   templateUrl: './cardset.component.html',
   styleUrls: ['./cardset.component.css'],
 })
