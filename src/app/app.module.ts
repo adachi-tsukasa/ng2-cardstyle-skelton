@@ -18,9 +18,9 @@ import { CardfilterPipe } from './cardfilter.pipe';
   ],
   exports: [ AppComponent,CardsetComponent,CardfilterPipe],
   imports: [
-    BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    BrowserModule.withServerTransition({appId: 'ng2-cardstyle-skelton'}),
   ],
   providers: [],
   bootstrap: [AppComponent]
